@@ -10,7 +10,6 @@
 
 int main(int argc, char* argv[])
 {
-  (void)argc;
   int sock = socket(AF_INET, SOCK_DGRAM, 0);
   if(sock < 0){
     perror("socket");
